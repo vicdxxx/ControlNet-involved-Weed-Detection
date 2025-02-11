@@ -4,14 +4,14 @@ This is the official repo for the paper "Weed image augmentation by ControlNet-a
 ## Citation
 Please consider cite our work if you find this repo is helpful.
 ```
-@article{Update soon,
+@article{
   title={Weed image augmentation by ControlNet-added stable diffusion for multiclass weed detection},
   author={Lu, Yuzhen and Deng, Boyang},
-  journal={Update soon},
+  journal={Computers and Electronics in Agriculture},
   volume={Update soon},
   pages={Update soon},
   year={2025},
-  publisher={update soon}
+  publisher={ELSEVIER}
 }
 ```
 
