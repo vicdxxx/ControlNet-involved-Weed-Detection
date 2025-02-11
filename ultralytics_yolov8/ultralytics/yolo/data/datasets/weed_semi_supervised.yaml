@@ -1,0 +1,82 @@
+# Ultralytics YOLO 🚀, GPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: E:\PHD\WeedDetection\CottonWeedDet12  # dataset root dir
+#path: D:\Dataset\WeedData\weed_10_species
+path: D:\BoyangDeng\StableDiffusionWeedV2\test\generated_10_species
+train: bg_weed_images_basic  # train images (relative to 'path') 128 images
+val: val2017  # val images (relative to 'path') 128 images
+# generated_Lambsquaters_in_bg_with_weeds
+# train2017_real_same_images_as_generated_Lambsquaters_in_bg_with_weeds
+# generated_Lambsquaters_in_bg_with_weeds_plus_origin_images
+# generated_Lambsquaters_in_bg_with_weeds_compare
+# generated_Lambsquaters_in_bg_with_weeds_merged
+# bg_weed_100images_repeat
+# mask_soil_with_weeds_no_overlap_generated
+# mask_soil_with_weeds_no_overlap_origin
+# train2017_real_semisupervised_split1_all
+# train2017_real_semisupervised_split1_percent10
+# train2017_split_2_seed_0_percent10
+# train2017_split_3_seed_0_percent10
+# train2017_real_semisupervised_split1_percent10_with_data2024
+# train2017_real
+# train2017_real_with_data2024
+# train2017_split_2
+# train2017_split_3
+# val2017_with_data2024
+# val2017
+# val2017_split_2
+# val2017_split_3
+# Classes
+nc: 43
+names:
+  25: 10,
+  26: 11,
+  27: 12,
+  23: 15,
+  24: 21,
+  39: Beet,
+  33: Cabbage,
+  4: Carpetweed,
+  40: Carrot,
+  35: Chickweed,
+  17: Cocklebur,
+  36: CornChamomile,
+  34: Crabgrass,
+  30: Crowfootgrass,
+  11: CutleafGroundcherry,
+  6: Eclipta,
+  10: Goosegrass,
+  21: GroundIvy,
+  31: Henbit,
+  16: HophornbeamCopperleaf,
+  32: Knotweed,
+  12: Lambsquarters,
+  1: MorningGlory,
+  18: Nutsedge,
+  41: Onion,
+  8: PalmerAmaranth,
+  13: Pigweed,
+  7: PricklySida,
+  20: PurpleAmmania,
+  2: Purslane,
+  5: Ragweed,
+  9: Sicklepod,
+  15: Smartweed,
+  3: SpottedSpurge,
+  22: Swinecress,
+  38: ThaleCress,
+  28: Turnip,
+  14: Unknown,
+  19: VirginiaButtonweed,
+  0: Waterhemp,
+  29: Weed,
+  37: WhiteCampion,
+  42: Velvetleaf

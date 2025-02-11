@@ -17,5 +17,5 @@ Please consider cite our work if you find this repo is helpful.
 
 ## Contents
 
-1) The ControlNet-added Stable Diffusion code used for generated synthetci images.
-2) The YOLOv8 code used for training the weed detection model.
+1) The ControlNet-added Stable Diffusion code used for generated synthetci images. Modified from https://github.com/lllyasviel/ControlNet
+2) The YOLOv8 code used for training the weed detection model. Modified from https://github.com/ultralytics/ultralytics
